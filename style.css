@@ -1,0 +1,209 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+h3 {
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
+}
+header {
+    text-align: center;
+    margin: auto 2em;
+}
+
+section {
+    margin: auto 1em 4em 2em;
+}
+
+i {
+    margin-right: .5em;
+}
+
+p {
+    margin: .2em auto;
+}
+
+hr {
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+}
+
+h1, h2, h3 {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+#mainLeft {
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+#mainRight {
+    border-right: 1px solid lightgray;
+}
+
+.name {
+    font-size: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 22px;
+}
+
+.contact, .skill, .edu, .about, .proj {
+    font-weight: 600;
+}
+
+#mainLeft p a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(158, 100, 213);
+    line-height: 22px;
+}
+
+.skill_title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.skills li {
+    font-size: 15px;
+}
+
+.education {
+    font-size: 15px;
+    font-weight: 600;
+    /* text-align: center; */
+}
+
+section p {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.project {
+    font-size: 18px;
+}
+
+.para {
+    padding-bottom: 18px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+
+    .name {
+        font-size: 2.5em;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    #mainLeft p a, .skill_title, .skills li, .education, section p {
+        font-size: 14px;
+    }
+
+    .project {
+        font-size: 17px;
+    }
+
+    main {
+        margin-top: 2em;
+    }
+
+    section {
+        margin: auto 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    .name {
+        font-size: 2em;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    #mainLeft p a, .skill_title, .skills li, .education, section p {
+        font-size: 13px;
+    }
+
+    .project {
+        font-size: 16px;
+    }
+
+    header {
+        margin: auto 1em;
+    }
+
+    section {
+        margin: auto 1em 3em 1em;
+    }
+
+    main {
+        margin-top: 1em;
+        grid-template-columns: 100%;
+
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 10px;
+    }
+
+    .name {
+        font-size: 1.5em;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    #mainLeft p a, .skill_title, .skills li, .education, section p {
+        font-size: 12px;
+    }
+
+    .project {
+        font-size: 14px;
+    }
+
+    header {
+        margin: auto 0.5em;
+    }
+
+    section {
+        margin: auto 0.5em 2em 0.5em;
+    }
+
+    main {
+        margin-top: 1em;
+    }
+}
